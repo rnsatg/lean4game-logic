@@ -22,7 +22,7 @@ You're flipping a coin to decide which team gets to guess first in *Salad Bowl*.
 # Unlocked `iff_mp` and `iff_mpr`
 For a biconditional like `h : P ↔ Q`,
 1. You can extract `P → Q` using `iff_mp h` or `h.mp`. `mp` here is short of modus ponens.
-2. You can extra `Q → P` using `iff_mpr h` or `h.mpr`. `mpr` here is short of modus ponens reversed.
+2. You can extract `Q → P` using `iff_mpr h` or `h.mpr`. `mpr` here is short of modus ponens reversed.
 "
 
 /-- Statement -/
